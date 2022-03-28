@@ -41,6 +41,9 @@ input {
   border: 1px solid var(--app-grey);
   border-radius: .2em;
 }
+small {
+  display: flex;
+}
 
 input:focus {
   outline: none;
@@ -62,6 +65,10 @@ button {
   margin-top: 2em;
   font-weight: 400;
   font-size: 1em;
+}
+
+button:disabled {
+  background-color: #676767;
 }
 
 .form-header {
